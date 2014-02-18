@@ -1,0 +1,46 @@
+;;agentset/list functions
+
+to-report to-list [agentset]
+  let res []
+  ask agentset [
+    set res lput self res 
+  ]
+  report res
+end
+
+;;list to agentset
+;; @requires : single type list !
+to-report to-agentset [l]
+  if l = [] [report nobody]
+  if is-turtle? first l [report turtles with [member? self l]]
+  if is-link? first l [report links with [member? self l]]
+  if is-patch? first l [report patches with [member? self l]]
+end
+
+
+
+
+;; normalised norm-p of a vector
+;; in this file because applies on a list
+;;"efficient" implementation, just one go through the list (is it really useful?)
+
+to-report norm-p [p l]
+  let res 0
+  let n length l
+  foreach l [set res res + (? ^ p)]
+  report (res / n) ^ (1 / p)
+end
+
+
+
+
+;;concatenation of two listes ? -> sentence does that ! (not recursive)
+
+
+
+;;conc of terms in a list
+to-report sentence-list [l]
+  let res ""
+  foreach l [set res word res ?]
+  report res
+end

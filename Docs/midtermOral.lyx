@@ -1,0 +1,901 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usetheme{Warsaw}
+%\usetheme{Boadilla}
+% or ...
+
+\usecolortheme{orchid}
+\setbeamertemplate{footline}[text line]{} % makes the footer EMPTY
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+
+\usepackage{bbm}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Analyse des systèmes territoriaux: étude de cas de l'implantation d'une
+ nouvelle infrastructure à Nanterre
+\end_layout
+
+\begin_layout Author
+A.
+ Jacob
+\begin_inset Formula $^{1}$
+\end_inset
+
+, J.
+\begin_inset space ~
+\end_inset
+
+Raimbault
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+\begin_inset Formula $^{1}$
+\end_inset
+
+Département VET, Ecole Nationale des Ponts et Chaussées
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $^{2}$
+\end_inset
+
+Erasmus Mundus Master in Complex Systems Science, Ecole Polytechnique
+\end_layout
+
+\begin_layout Date
+
+\shape italic
+Cours: Méthodes d'analyse des Systèmes Territoriaux
+\begin_inset Newline newline
+\end_inset
+
+Prof.
+ : Fabien Leurent, LVMT, ENPC
+\begin_inset Newline newline
+\end_inset
+
+
+\shape default
+Sountenance intermédiaire
+\begin_inset Newline newline
+\end_inset
+
+9 décembre 2013
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+AtBeginSection[]{
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+frame<beamer>{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+frametitle{Outline}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+tableofcontents[currentsection] 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Outline
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Nanterre: présentation générale
+\end_layout
+
+\begin_layout BeginFrame
+Nanterre: localisation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename midterm/nanterreloc.jpg
+	lyxscale 10
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Elements de contexte qualitatifs
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Un important pôle d'emploi
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Une préfecture
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Un parc de logements sociaux conséquent
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Une université
+\end_layout
+
+\begin_layout BeginFrame
+Elements de contexte quantitatifs
+\end_layout
+
+\begin_layout Standard
+Des chiffres clés en 2007
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+7eme commune la plus peuplée de France avec 88 875 habitants
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+96000 emplois occupés
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+31000 étudiants
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Soit plus de 200 000 usagers de la ville.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Source
+\shape default
+: Atlas socio démographique et économique de la ville de Nanterre, d'après
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "INSEE07"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Une forte demande en infrastructure de tranport
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename midterm/demandeTransport.png
+	lyxscale 10
+	scale 80
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Les infrastructures
+\end_layout
+
+\begin_layout Itemize
+19 lignes de bus :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+12 lignes interurbaines exploitées par la RATP : 141, 157, 158, 159, 160, 
+ 163, 258,  276, 304,  360, 367 et 378.
+\end_layout
+
+\begin_layout Itemize
+1 ligne interurbaine exploitée par Veolia Transport : 503 Nanterre  Plainchamps/
+ Gare de Saint-Quentin-en-Yvelines.
+\end_layout
+
+\begin_layout Itemize
+3 lignes urbaines exploitées par la RATP : 559 (ligne bleue),560 (ligne
+ rouge) et 563.
+\end_layout
+
+\begin_layout Itemize
+3 lignes nocturnes exploitées par la RATP : N24, N53 et N 153
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Réseau routier structurant : Autoroute A14, A86 (2ème périphérique)
+\end_layout
+
+\begin_layout Itemize
+Ligne A du RER / TRANSILIEN : Gares Nanterre-Ville, Nanterre-Préfecture,
+ Nanterre-Université
+\end_layout
+
+\begin_layout Section
+Une dynamique de quartiers
+\end_layout
+
+\begin_layout BeginFrame
+Localisation de la zone étudiée
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename midterm/iris.jpg
+	lyxscale 10
+	scale 50
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename midterm/quartiers.jpg
+	lyxscale 10
+	scale 50
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Analyse morphologico-fonctionelle
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Quoi? Utilisation de la carte topographique pour guider la compréhension
+ du territoire et les analyses GIS par la suite
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pourquoi? Appréhension du territoire sous différent modes à la fois: du
+ morphologique au social? (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "badariotti2006renouvellement"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Permet de préparer le compromis entre géographie explicative et géographie
+ exploratoire qui est le but final du projet (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banos2013HDR"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout BeginFrame
+Analyse morphologico-fonctionelle: carte IGN
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Data/Raster/NanterreIGN.png
+	lyxscale 10
+	scale 27
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Carte de l'usage des sols
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/LandUse/WithGPEandFutureStations.jpg
+	lyxscale 10
+	scale 22
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Diversité des usages
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/LandUse/diversiteFonc.jpg
+	lyxscale 10
+	scale 22
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Emprise de l'habitat
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/LandUse/habitat.jpg
+	lyxscale 10
+	scale 22
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+La population de Nanterre
+\end_layout
+
+\begin_layout BeginFrame
+Les habitants: âge moyen
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/LandUse/agemoyen.jpg
+	lyxscale 10
+	scale 22
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Les habitants: CSP
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/PopulationCSP/CSPNanterre.pdf
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/PopulationCSP/CSPNanterre.pdf
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/PopulationCSP/CSPNanterre.pdf
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Evolution comparée avec l'Ile-de-France
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename midterm/evolutionCSP.png
+	lyxscale 10
+	scale 30
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename midterm/evolutionCSPNanterre.png
+	lyxscale 10
+	scale 30
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+CSP par zones IRIS
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/LandUse/cspOnlyArea.jpg
+	lyxscale 10
+	scale 22
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Emplois: secteurs d'activité
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename midterm/emplois.png
+	lyxscale 10
+	scale 50
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Conclusion
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Une zone très hétérogène, tant sur le plan morphologique que sur le plan
+ socio-économique.
+ 
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Des forces et des faiblesses à cerner pour une bonne conception et application
+ de modèles projectifs; question du choix de l'échelle (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pumain2004scaling"
+
+\end_inset
+
+)
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Les enjeux sociaux sont amplifiés dans le cadre du scénario de l'implantation
+ de la gare du GPE: importance du potentiel spatial de ségregation ? (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banos2012network,schelling1969models"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{frame}[allowframebreaks]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frametitle{References}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/Juste/Documents/Cours/ComplexSystemsMadeSimple/project/Biblio/projetCSMS,/Users/Juste/Documents/ComplexSystems/Biblio/BibTeX/global,/Users/Juste/Documents/Cours/MASYT/Project/Biblio/masyt"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{frame}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Questions
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+\begin_inset space \hfill{}
+\end_inset
+
+?
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document

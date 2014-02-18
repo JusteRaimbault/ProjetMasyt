@@ -1,0 +1,1012 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usetheme{Warsaw}
+%\usetheme{Boadilla}
+% or ...
+
+\usecolortheme{orchid}
+\setbeamertemplate{footline}[text line]{} % makes the footer EMPTY
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+
+\usepackage{bbm}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Analyse des systèmes territoriaux: étude de cas de l'implantation de la
+ nouvelle infrastructure du GPE à Nanterre
+\end_layout
+
+\begin_layout Author
+A.
+ Jacob, J.
+\begin_inset space ~
+\end_inset
+
+Raimbault
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/logoPonts.jpeg
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+Département VET, Ecole Nationale des Ponts et Chaussées
+\end_layout
+
+\begin_layout Date
+
+\shape italic
+Cours: Méthodes d'analyse des Systèmes Territoriaux
+\begin_inset Newline newline
+\end_inset
+
+Prof.
+ : Fabien Leurent, LVMT, ENPC
+\begin_inset Newline newline
+\end_inset
+
+
+\shape default
+Sountenance Finale
+\begin_inset Newline newline
+\end_inset
+
+10 février 2014
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AtBeginSection[]{
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+frame<beamer>{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+frametitle{Outline}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+tableofcontents[currentsection] 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Outline
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Analyse du territoire
+\end_layout
+
+\begin_layout BeginFrame
+Nanterre: localisation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ../midterm/nanterreloc.jpg
+	lyxscale 10
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Histoire et Héritages
+\end_layout
+
+\begin_layout FrameSubtitle
+Nanterre et les bidonvilles, d'après 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dazi1990chroniques"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/bidonvilles.png
+	lyxscale 10
+	scale 65
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Nanterre dans le 92
+\end_layout
+
+\begin_layout FrameSubtitle
+Disparités territoriales à différentes échelles (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bouzouina2005disparites"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/revenusdep.jpg
+	lyxscale 10
+	scale 20
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Dynamique de quartiers
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename pics/dynamiquequartiers.pdf
+	lyxscale 10
+	scale 39
+	BoundingBox 0bp 0bp 842bp 545bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Nanterre La Folie
+\end_layout
+
+\begin_layout FrameSubtitle
+Analyse morphologico-fonctionelle d'après carte IGN [d'une lecture morphologique
+ à une lecture sociale, suivant 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "badariotti2006renouvellement"
+
+\end_inset
+
+ ? ]
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Data/Raster/NanterreIGN.png
+	lyxscale 10
+	scale 27
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Scénarii d'urbanisation et plan masse
+\end_layout
+
+\begin_layout BeginFrame
+Population et Emploi 2007
+\end_layout
+
+\begin_layout FrameSubtitle
+Source : 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "INSEE07"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+7eme commune la plus peuplée de France avec 88 875 habitants (avec 34000
+ actifs dont 65% travaille dans une autre commune)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+96000 emplois occupés (dont 83000 par des actifs venant d’une autre commune)
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+31000 étudiants (dont 29000 venant d’une autre commune) 
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Soit plus de 200 000 usagers de la ville.
+\end_layout
+
+\begin_layout BeginFrame
+Projection P+E
+\end_layout
+
+\begin_layout FrameSubtitle
+Scenarii élaborés d'après 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atlasNanterre,sdrif2013"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename pics/pe.pdf
+	lyxscale 10
+	scale 45
+	BoundingBox 0bp 0bp 689bp 287bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Plan masse : approche proposée
+\end_layout
+
+\begin_layout FrameSubtitle
+Optimisation algorithmique de la distribution fonctionelle pour le nouveau
+ quartier des Groues (gare de La Folie)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/Groues.png
+	lyxscale 10
+	scale 21
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/Algo/Views/optim.png
+	lyxscale 10
+	scale 34
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Algorithme d'optimisation
+\end_layout
+
+\begin_layout Standard
+Idée : à l'échelle de granularité du batiment, optimisation multi-critère
+ de la distribution fonctionelle au sein de la zone, à l'aide d'un algorithme
+ génétique (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zitzler1999multiobjective"
+
+\end_inset
+
+) utilisant des modèles bottom-up comme fonctions d'évaluations.
+\end_layout
+
+\begin_layout Standard
+Fonctions : Avec 
+\begin_inset Formula $\mathcal{C}_{0}=(C_{0},N_{0})$
+\end_inset
+
+ configuration initiale pour les centroïdes fonctionels et le réseau viaire,
+ on a le potentiel d'accessibilité 
+\begin_inset Formula $A(\mathcal{C}_{0})$
+\end_inset
+
+ fournit par un modèle hybride CA/réseau (développé dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raimbault2014urbanconf"
+
+\end_inset
+
+) et le potentiel de ségregation économique 
+\begin_inset Formula $S(\mathcal{C}_{0})$
+\end_inset
+
+ (sensibilité spatiale du modèle de Schelling 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schelling1969models"
+
+\end_inset
+
+ introduite dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banos2012network"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Algorithme défini par 
+\begin_inset Formula $\mathcal{C}_{t+1}=C_{A,S}(\mathcal{C}_{0}^{(1)},\mathcal{C}_{0}^{(2)})$
+\end_inset
+
+ avec 
+\begin_inset Formula $C_{A,S}$
+\end_inset
+
+ fonction de croisement (pas de mutation).
+\end_layout
+
+\begin_layout BeginFrame
+Résultats
+\end_layout
+
+\begin_layout FrameSubtitle
+Motifs bi-fonctionnels pour l'ensemble de la zone, selection des 
+\begin_inset Quotes eld
+\end_inset
+
+meilleurs
+\begin_inset Quotes erd
+\end_inset
+
+ au sens de Pareto
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/Algo/resultGA.png
+	lyxscale 10
+	scale 35
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/Algo/pareto.png
+	lyxscale 10
+	scale 50
+	BoundingBox 0bp 0bp 223bp 103bp
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Impacts du GPE
+\end_layout
+
+\begin_layout BeginFrame
+Conséquence de l'évolution du P+E
+\end_layout
+
+\begin_layout FrameSubtitle
+Evolution des lignes de désir des déplacements vers Nanterre
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/DesireLines/desiresAllModesToNanterre2005.jpg
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/DesireLines/desiresAllModesToNanterre2030.jpg
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Conséquence de l'implantation du GPE
+\end_layout
+
+\begin_layout FrameSubtitle
+Evolution des parts modales en provenance de Nanterre
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/ModalChoice/FlowsAllModesFromNanterre2005.jpg
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/ModalChoice/FlowsAllModesFromNanterre2030.jpg
+	lyxscale 10
+	scale 15
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Repartition des flux
+\end_layout
+
+\begin_layout FrameSubtitle
+Utilisation de la nouvelle infrastructure
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/TransitFlows2005.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/TransitFlows2030.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Congestion ?
+\end_layout
+
+\begin_layout FrameSubtitle
+Diagnostic en 2005, non réalisable directement pour 2030
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/congestionTC2005.jpg
+	lyxscale 10
+	scale 22
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Impact sur les coûts généralisés
+\end_layout
+
+\begin_layout FrameSubtitle
+Transformation régionale des motifs d'accessibilités
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/generalisedCosts2005.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/generalisedCosts2030.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Gain de temps depuis la zone
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/CostGainBetterMap.jpg
+	lyxscale 10
+	scale 24
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Conséquences locales
+\end_layout
+
+\begin_layout FrameSubtitle
+Voyageurs au stations
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/OnOff2005.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/OnOff2030.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Conséquences locales
+\end_layout
+
+\begin_layout FrameSubtitle
+Influence sur les flux piétons ?
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/walk2005.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/walk2030.jpg
+	lyxscale 10
+	scale 14
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Conclusion
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Une zone très hétérogène, tant sur le plan morphologique que sur le plan
+ socio-économique, dont le développement urbanistique, économique, démographique
+ et sociologique devrait de manière quantitative et qualitative être poussé
+ par l'arrivée du GPE.
+ 
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Projections toutefois limitée à la fois dans la validité des résultats (modèle
+ basique) et dans leur étendue (pas de projections économiques ou démographiques
+ émergentes par exemple).
+ 
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Une étude introductive au contenu propre tout de même riche.
+ Quelles pistes éventuelles de développements ? (affiner le LUTI ou utiliser
+ des modèles plus intégrés (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "batty2013new"
+
+\end_inset
+
+) ? )
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{frame}[allowframebreaks]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frametitle{References}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/Juste/Documents/Cours/ComplexSystemsMadeSimple/project/Biblio/projetCSMS,/Users/Juste/Documents/ComplexSystems/Biblio/BibTeX/global,/Users/Juste/Documents/Cours/MASYT/Project/Biblio/masyt"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{frame}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Questions
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+\begin_inset space \hfill{}
+\end_inset
+
+?
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document
