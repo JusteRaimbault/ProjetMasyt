@@ -262,6 +262,17 @@ key "dazi1990chroniques"
 Nanterre dans le 92
 \end_layout
 
+\begin_layout FrameSubtitle
+Disparités territoriales à différentes échelles (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bouzouina2005disparites"
+
+\end_inset
+
+)
+\end_layout
+
 \begin_layout Standard
 \begin_inset space \hfill{}
 \end_inset
@@ -899,15 +910,16 @@ Projections toutefois limitée à la fois dans la validité des résultats (mod�
 \end_layout
 
 \begin_layout Itemize
-Les enjeux sociaux sont amplifiés dans le cadre du scénario de l'implantation
- de la gare du GPE: importance du potentiel spatial de ségregation ? (
+Une étude introductive au contenu propre tout de même riche.
+ Quelles pistes éventuelles de développements ? (affiner le LUTI ou utiliser
+ des modèles plus intégrés (
 \begin_inset CommandInset citation
 LatexCommand cite
-key "banos2012network,schelling1969models"
+key "batty2013new"
 
 \end_inset
 
-)
+) ? )
 \end_layout
 
 \begin_layout Standard

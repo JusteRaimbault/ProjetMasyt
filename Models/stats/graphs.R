@@ -37,3 +37,16 @@ pie(mapply(sum,cspZone[,13:19]),
 cspEvol <- read.table('/Users/Juste/Documents/Cours/MASYT/Project/Data/DataCSV/CSPEvolutionNanterre.csv',sep=";")
 
 
+
+
+
+#distribtuion of generalized costs in TC model evolution
+overlay <- read.table("/Users/Juste/Documents/Cours/MASYT/Project/Data/ModeleTC/overlaynodes.csv",sep=",")
+costs = overlay[,31]
+hist(costs,breaks=100)
+
+par <- read.table("/Users/Juste/Documents/Cours/MASYT/Project/Results/Algo/Pareto/res.csv",sep=";", header=TRUE)
+plot(par$x, par$y, xlim=c(0,0.4),ylim=c(0,0.4),xlab="Economic Segregation",ylab="Distance to activities")
+
+
+

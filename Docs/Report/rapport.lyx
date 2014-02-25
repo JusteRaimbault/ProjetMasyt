@@ -1,0 +1,3816 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Analyse des systèmes territoriaux: étude de cas de l’implantation de la
+ nouvelle infrastructure du GPE à Nanterre
+\end_layout
+
+\begin_layout Author
+
+\noun on
+Alicia Jacob
+\noun default
+, 
+\noun on
+Juste Raimbault
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+Département VET, Ecole Nationale des Ponts Et Chaussées
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+\star &  & \star\\
+ & \star
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Module MASYT : 
+\shape italic
+Méthodes d'Analyse des Systèmes Territoriaux
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Prof.
+ : 
+\noun on
+Fabien Leurent
+\noun default
+, LVMT, ENPC
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+\star &  & \star\\
+ & \star
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/garde1.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/garde3.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/garde2.jpg
+	lyxscale 10
+	scale 18
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+\star &  & \star\\
+ & \star
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Le problème de l'effet structurant des infrastructures de transport sur
+ le développement territorial est central dans les études de planification
+ et constitue un enjeu majeur de la recherche actuelle, comme le rappelle
+ Le Nechet dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "le2010approche"
+
+\end_inset
+
+ en abordant la question du point de vue des liens entre forme urbaine et
+ mobilit́e quotidienne.
+ Les débats sur l'élaboration de la nouvelle infrastructure ferroviaire
+ du Grand Paris Express (GPE) rentrent dans ce cadre, puisqu'ils posent
+ les questions de nécessité de l'infrastructure, mais aussi de la modélisation
+ des futurs impacts de l'implantation sur les territoires concernés.
+ A une échelle locale, nous étudions le cas de la future gare du GPE sur
+ la commune de Nanterre, afin de tenter d'appréhender les enjeux et évolutions
+ potentielles liées à celle-ci.
+ Dans une première partie, nous procédons à un diagnostic territorial afin
+ de cadrer l'étude.
+ Nous étudions ensuite un scénario socio-économique et urbanistique d'évolution
+ pour la zone.
+ Enfin, suivant ce scénario, nous simulons certains impacts de l'implantation
+ du GPE sur le territoire.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagnostic territorial
+\end_layout
+
+\begin_layout Subsection
+Contexte géographique et historique
+\end_layout
+
+\begin_layout Subsubsection
+Localisation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 26
+placement o
+overhang 0in
+width "40col%"
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/nanterreloc.jpg
+	lyxscale 10
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Nanterre en Ile-de-France (source 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atlasNanterre"
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/iris.jpg
+	lyxscale 10
+	scale 48
+	BoundingBox 0bp 0bp 248bp 326bp
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Localisation de la zone projet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Localisation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nanterre est une commune située à l’ouest parisien en petite couronne, dans
+ le département 92 des Hauts de Seine.
+ Il s'agit d'un territoire qui doit composer avec de multiples enjeux.
+ En effet, cette commune est à la fois la préfecture du département des
+ Hauts de Seine, un important pôle d'emplois, possède un parc de logements
+ sociaux conséquent et accueille une université, estimée comme le deuxième
+ campus de France et qui accueille un peu plus de 30000 étudiants (voir
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "univParisX"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La zone étudiée est la zone de Nanterre La Folie située dans le Nord de
+ Nanterre et qui est principalement composée de l’université, de la prison
+ et d’une zone industrielle.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Histoire
+\end_layout
+
+\begin_layout Standard
+Nanterre est connue pour les bidonvilles qui dans les années 60 abritaient
+ 14 000 immigrés principalement algériens (voir figure 2).
+ Mais c’est seulement à partir des années 70 que les bidonvilles commencèrent
+ à se résorber grâce à des plan de constructions massives de logements sociaux
+ impulsés par la SONACOTRA (Société nationale de construction de logements
+ pour les travailleurs algériens).
+ A Nanterre ces bidonvilles étaient surtout situés dans le quartier de Nanterre
+ La Folie.
+ En héritage de cette époque Nanterre La Folie est maintenant un quartier
+ constitué d’infrastructures et d’industries construites sur les emplacements
+ des bidonvilles et de peu de logements.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cet héritage a également un fort impact sur la composition sociale de la
+ population comme nous le verrons par la suite, ainsi que sur la vie politique,
+ la mairie étant communiste depuis 1935.
+ A noter également que la faculté de Nanterre fut un point fort des évènements
+ de mai 1968, comme une réaction à sa condition de 
+\begin_inset Quotes eld
+\end_inset
+
+ghetto d'intellectuels
+\begin_inset Quotes erd
+\end_inset
+
+ que critique 
+\noun on
+Lefebvre
+\noun default
+ dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "henri1968droit"
+
+\end_inset
+
+, lui-même ayant une relation privilégiée avec la faculté de Paris X et
+ mai 68.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le territoire étudié hérite donc d'une histoire riche, à prendre en compte
+ en filigrane lors de l'analyse pragmatique que l'on en fera : il est impossible
+ de comprendre les enjeux liés au renouvellement urbain ou les symboliques
+ en jeu dans les projets urbains sans une mise en contexte historique, comme
+ le rappellent 
+\noun on
+Panerai
+\noun default
+ et 
+\noun on
+Mangin
+\noun default
+ dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mangin1999projet"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/bidonvilles.png
+	lyxscale 10
+	scale 75
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Localisation des principaux bidonvilles à Nanterre, source 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dazi1990chroniques"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Analyse morphologico-fonctionnelle préliminaire
+\end_layout
+
+\begin_layout Standard
+A l'instar de 
+\noun on
+Badariotti
+\noun default
+ dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "badariotti2006renouvellement"
+
+\end_inset
+
+, nous soutenons qu'il est possible de glisser d'une lecture morphologique
+ du territoire à une lecture sociale.
+ Ainsi, nous proposons comme bref préliminaire à l'analyse territoriale
+ pragmatique une analyse morphologico-fonctionnelle par étude de la carte
+ IGN, qui est en fait bien plus qu'une projection physique du territoire,
+ puisqu'elle inclut par exemple représentation sémantique (couche des noms
+ de lieux), représentation fonctionelle en partie (couche des fonctions
+ importantes et/ou fonctions publiques), représentation dynamique par matérialis
+ation, catégorisation et hiérarchisation des moyens de transports, et donc
+ nécessairement par interaction des ces composantes du système urbain, une
+ certaine représentation du système social sous-jacent car ce dernier est
+ étroitement lié à l'ensemble des autres sous-systèmes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La représentation cartographique et l'analyse correspondante sont présentées
+ en figure 3.
+ La conclusion générale qu'on peut en tirer est la présence d'une forte
+ hétérogénéité fonctionnelle et sociale du territoire, sûrement amplifiée
+ par de nombreuses coupures urbaines à l'origine d'une ségregation physique.
+ Il s'agit d'un territoire à haut potentiel de qualité urbaine, mais qui
+ porte des cicatrices historiques et physiques qui réduisent son expression
+ de manière conséquente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Data/Raster/NanterreFull.png
+	scale 45
+	BoundingBox 0bp 0bp 1029bp 742bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Carte IGN de la commune de Nanterre (source Géoportail).
+ Les limites de la commune sont matérialisées par la couche superposée en
+ jaune et orange.
+ On constate dans un premier temps la forte segmentation du territoire par
+ les infrastructures de transport et les équipements.
+ Par exemple, le quartier du petit Nanterre est completement isolé par les
+ voies de St-Lazare.
+ De même, la branche sud-ouest du RERA tranche le centre-ville en deux,
+ de même que les infrastructures autoroutières de l'A14 et l'A86.
+ Si la couverture a été opérée au niveau de la préfecture, dans le prolongement
+ de l'aménagement de La Défense, l'échangeur a été laissé à moitié découvert,
+ empêchant toute utilisation de son emprise pour des opérations d'urbanisme.
+ On observe également les différences morphologiques du tissu urbain qui
+ traduisent des différences socio-économiques : les quartiers sud sont des
+ zones pavillonaires peu denses, probablement assez riches ; on distingue
+ le centre historique plus dense ; les quartiers de logements sociaux sont
+ relativement isolés, telle la cité Berthelot.
+ Des zones comme le port ou la zone industrielle de la Folie sont monofonctionel
+les et séparées du reste de la ville.
+ Enfin, le campus de la faculté apparaît aussi comme un îlot isolé, une
+ ville au millieu de la ville, délimité par les barrières physiques des
+ infrastructures, ce qui suggère peu d'interaction entre les étudiants et
+ les locaux, c'est à dire un facteur de plus en défaveur de la mixité sociale.
+ La commune est de manière globale peu dense mais manque d'espace verts
+ : le parc Malraux est conséquent mais n'est pas satisfaisant pour une commune
+ de cette taille, d'autant plus que l'offre en espace verts est alors très
+ localisée.
+ Les bords de Seine ne sont pas du tout valorisés, de même que l'accès au
+ Mont Valérien semble peu accessible pour l'ensemble des habitants.
+ On a donc un territoire très fragmenté, d'une très forte hétérogénéité,
+ pour lequel le potentiel de qualité urbaine semble être handicapé par l'héritag
+e historique et la situation morphologique.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Analyse territoriale pragmatique
+\end_layout
+
+\begin_layout Subsubsection
+Vue d'ensemble
+\end_layout
+
+\begin_layout Paragraph
+Nanterre en quelques chiffres clefs
+\end_layout
+
+\begin_layout Standard
+Nanterre est la 7eme commune la plus peuplée de France avec près de 90 000
+ habitants.
+ Son bassin d'emploi compte plus de 96 000 emplois occupés et son université
+ accueille plus de 31 000 étudiants.
+ Des 38 000 actifs de Nanterre 65% travaillent dans une autre commune, des
+ 31 000 étudiants de l’université de Nanterre plus de 90% proviennent d’une
+ autre commune de même que 85% des actifs occupant les emplois de Nanterre.
+ Les flux décrits précedemment sont résumés dans le schéma présenté en figure
+ 4.
+ On compte au total plus de 200 000 habitants de la ville qui induisent
+ donc une forte demande en transport.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/demandeTransport.png
+	scale 120
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Migrations alternantes à Nanterre, issu de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atlasNanterre"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Desserte actuelle de Nanterre
+\end_layout
+
+\begin_layout Standard
+Nanterre est desservie par le RER dans trois gares : Nanterre Ville, Nanterre
+ Préfecture et Nanterre Université qui est aussi une gare de trains transiliens.
+ Le transport en commun de proximité est également caractérisé par une forte
+ offre, puisque Nanterre est desservi par 19 lignes de bus : 12 lignes interurba
+ines exploitées par la RATP : 141, 157, 158, 159, 160,  163, 258,  276,
+ 304,  360, 367 et 378 ; 1 ligne interurbaine exploitée par Veolia Transport :
+ 503 Nanterre  Plain champs/ Gare de Saint-Quentin-en-Yvelines ; 3 lignes
+ urbaines exploitées par la RATP : 559 (ligne bleue), 560 (ligne rouge)
+ et 563 et 3 lignes nocturnes exploitées par la RATP : N24, N53 et N 153.
+ La diversité de l'offre et la multiplication des acteurs peu devenir problémati
+que, notamment lors de la mise en place des projets : par exemple, les études
+ pour la future gare de la folie doivent au moins rassembler la commune,
+ la région et le département via leur financement, l'état via le financement
+ du GPE, encore la région via le Stif, la RATP, la SNCF, RFF pour la gestion
+ des emprises ferroviaires, etc.
+ Un consensus entre les différents acteurs peut parfois être difficile à
+ trouver et freiner considérablement l'avancement du projet.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Concernant le réseau routier, Nanterre est desservie par les autoroutes
+ A86 et A14, la première ayant plutôt vocation d'autoroute urbaine de transit
+ inter-banlieues (
+\begin_inset Quotes eld
+\end_inset
+
+deuxième rocade
+\begin_inset Quotes erd
+\end_inset
+
+) et la deuxième étant une autoroute radiale desservant la province, mais
+ également fortement utilisée localement.
+ Ces infrastructures, même en étant bénéfiques en terme d'accessibilité,
+ sont pour la ville également un lourd handicap : nuisances sonores et pollution
+, coupures urbaines, propagation de la congestion.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Apports du GPE
+\end_layout
+
+\begin_layout Standard
+Une gare du GPE serait implantée dans le quartier de Nanterre La Folie.
+ Le RER E serait prolongé jusqu’à Nanterre Université et il est en étude
+ un passage souterrain reliant ces deux gares.
+ Le phasage actuel du projet Eole
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Site du projet : http://www.rer-eole.fr/index.htm
+\end_layout
+
+\end_inset
+
+ suggère dans un premier temps un terminus au niveau de Nanterre, avant
+ de finir les aménagements pour un prolongement sur les lignes existantes
+ jusqu'à Mantes.
+ Ce phasage traduit deux objectifs distincts et complémentaires du projet,
+ qui sont d'une part le doublage de la ligne A afin de désaturer structurellemen
+t la ligne la plus fréquentée du monde, d'autre part le désenclavement du
+ Nord-ouest parisien dans une volonté de redynamisation liée au prolongement
+ implicite de la métropole vers Rouen et Le Havre.
+ Cependant, ces deux objectifs peuvent être contradictoires dans le cadre
+ du projet urbain autour de la nouvelle gare : un terminus provisoire suppose
+ de larges emprises pour le stockage des rames, ce qui rend peut probable
+ l'urbanisation du large faisceau au sud du quartier de la folie (une couverture
+ étant inenvisageable) et rend plus compliqué l'élaboration d'un nouveau
+ quartier de gare dynamique.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Comme la gare de Nanterre la Folie serait implantée dans un quartier actuellemen
+t située dans une zone industrielle.
+ Il est prévu de réaménager la zone autour de la gare.
+ Nous proposerons à cet effet un plan masse dans la seconde partie.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Analyse du Territoire
+\end_layout
+
+\begin_layout Subsubsection*
+Nanterre dans le 92
+\end_layout
+
+\begin_layout Standard
+Il est important de situer la commune au sein des territoires environnants,
+ notamment du département.
+ En effet, il est montré dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bouzouina2005disparites"
+
+\end_inset
+
+ que les hétérogénéités territoriales peuvent bien être présentes à de multiples
+ niveaux, allant de l'aire urbaine à l'intra-communal.
+ La figure 5 présente la carte des revenus moyens par commune au sein du
+ département des Hauts-de-Seine.
+ On constate un fort contraste avec les communes au sud, très riches, telles
+ Rueil.
+ Nanterre n'est pas la commune la plus pauvre du département, comme Genevilliers
+ ou Villeneuve au Nord, mais est largement en dessous de la moyenne, et
+ en forte disparité avec ses voisins immédiats au sud.
+ on peut supposer qu'une telle situation peut contribuer à créer ou accentuer
+ des tensions au sein même de la commune, par effets de voisinage.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/revenusdep.jpg
+	lyxscale 10
+	scale 30
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Disparités de revenus, département des Hauts-de-Seine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Population
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/PopulationCSP/IDF.pdf
+	lyxscale 10
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ile de France
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/PopulationCSP/CSPNanterre.pdf
+	lyxscale 10
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ile de France
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Répartitions des catégories socio-professionelles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous avons comparé la répartition des catégories socioprofessionnelles en
+ Ile France avec celle pour Nanterre, d'après les données de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "INSEE07"
+
+\end_inset
+
+, comme le montre la figure 6.
+ On peut remarquer que la part d’ouvriers et d’employés est plus importante
+ sur la commune de Nanterre que dans le reste de l’île de France bien que
+ Nanterre soit un pôle d’emplois de cadres et professions intermédiaires.
+ La part d’employés élevée s’explique en partie par le rôle de préfecture
+ joué par Nanterre qui implique des employés de bureau.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Les parts de ces catégories socioprofessionnelles ont évolué différemment
+ depuis 1968.
+ Alors que la part d’employés à plutôt diminué dans le reste de l’île de
+ France cette part a augmenté pour la ville de Nanterre.
+ Au contraire la part de cadres a augmenté moins vite que dans le reste
+ de l’île de France.
+ Ces évolutions sont montrées en figure 8.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 18
+placement o
+overhang 0in
+width "50col%"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/emplois.png
+	lyxscale 10
+	scale 55
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Secteurs d'activité (source 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atlasNanterre"
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Les emplois de la ville de Nanterre sont principalement des activités tertiaires.
+ On remarque que l’administration publique représente près de 20% des emplois
+ de la ville et l’enseignement 5% ce qui correspond aux activités respectivement
+ liées à la préfecture de Nanterre et à l’université.
+ Les autres activités tertiaires représentant 45% des emplois de la ville
+ correspondent principalement à des emplois de cadres, comme on peut le
+ constater en figure 7.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/evolutionCSP.png
+	lyxscale 10
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ile-de-France
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/evolutionCSPNanterre.png
+	lyxscale 10
+	scale 33
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Nanterre
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Evolution des CSP en IDF et à Nanterre entre 1968 et 2007 (source 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atlasNanterre"
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On voit ici un des paradoxes de la ville de Nanterre qui est que les emplois
+ de la ville ne correspondent pas aux catégories socioprofessionnelles des
+ habitants.
+ En effet la majorité des emplois offerts par la ville sont des emplois
+ d’activités tertiaires supérieures alors que les habitants sont majoritairement
+ des employés et ouvriers peu qualifiés.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/PopulationCSP/CSPZoneProjet.pdf
+	lyxscale 10
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ile de France
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/PopulationCSP/CSPNanterre.pdf
+	lyxscale 10
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ile de France
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Répartitions des catégories socio-professionelles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sur la zone projet La Folie la part des « autres personne sans activité
+ professionnelle est plus importante que dans le reste de Nanterre (voir
+ figure 9).
+ On peut expliquer cela par la présence de l’université qui attire des étudiants
+ dans la zone.
+ La disparité des CSP au sein même de la zone est montré par la carte de
+ répartition spatiale des CSP par zones Iris en figure 10 : on peut voir
+ la zone correpondant à la faculté fondamentalement différente des autres.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/Population/cspOnlyArea.jpg
+	lyxscale 10
+	scale 25
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+CSP et quantité de population active au sein de la zone (découpage Iris)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+La dynamique de quartiers de Nanterre
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/landuse.png
+	lyxscale 10
+	scale 43
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Usage du sol
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/Population/agemoyen.jpg
+	lyxscale 10
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Age de la population
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/wealth.png
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Richesse de la population
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Dynamique de quartiers (données 2007)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nanterre est fracturé en différents quartiers étanches les uns aux autres.
+ On peut caractériser ces différents quartiers en faisant une étude croisée
+ des trois cartes présentées en figure 11.
+ Les deux principaux critères qui permettent de différencier ces quartiers
+ sont l’âge de la population et son revenu moyen.
+ On distingue donc le sud, de population plutôt âgée et aisé avec des habitation
+s individuelles, la zone de La Folie plutôt jeune et de faible revenu avec
+ des infrastructures et des logement collectifs, la pointe ouest de Nanterre
+ avec peu d’habitation et une population défavorisée.
+ A noter que sur la carte « richesse de la population » une grande partie
+ de la zone de La Folie apparaît en blanc car certaines données sont manquantes.
+ On sait d’après l’atlas socio-économique de la ville de Nanterre que dans
+ cette zone la population a un faible revenu moyen.
+\end_layout
+
+\begin_layout Subsubsection
+Conclusion de l'analyse territoriale
+\end_layout
+
+\begin_layout Standard
+Le diagnostic pragmatique a confirmé les tendances suggérées lors de l'analyse
+ préliminaire.
+ Ainsi, le territoire est relativement sensible tant au niveau social qu'au
+ niveau économique : par exemple, un projet urbain qui promeut une densification
+ devra prendre en compte la part importante d'activité permettant l'mploi
+ local, et ne pas supprimer celles-ci au profit d'un secteur tertiaire unique
+ car cela augmenterait les tensions sociales vu le contexte socio-professionel.
+ De même, cette analyse suggère un fort potentiel de développement, qui
+ peut être envisagé comme stratégie urbaine : c'est le scénario que nous
+ allons présenter par la suite.
+\end_layout
+
+\begin_layout Section
+Projections, scenarisations et projet urbain
+\end_layout
+
+\begin_layout Subsection
+Projection Population et Emploi à l'horizon 2030
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/pe.pdf
+	lyxscale 10
+	scale 64
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Projection P+E
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figure 12 présente des projections pour l'évolution de la population
+ et des emplois.
+ On a en première ligne les données de la zone de 2005.
+ La deuxième ligne représente les prévisions de l’INSEE, la troisième ligne
+ le scénario que nous allons étudier.
+ Nous avons décidé d’étudier un scénario suivant la lignée générale de l'orienta
+tion voulue pour les prochaines années par la mairie de Nanterre.
+ D’après l’Atlas socio-économique de la ville de Nanterre (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atlasNanterre"
+
+\end_inset
+
+) il est prévu la construction de 1000 logements par an jusqu’en 2030.
+ Il est important de noter que cette volonté rentre dans la ligne directe
+ des textes du nouveau Schéma directeur voté en octobre dernier (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sdrif2013"
+
+\end_inset
+
+), qui appuie sur la pénurie croissante de logements en Ile-de-France, et
+ notamment de logement sociaux.
+ De la part des décideurs politiques locaux, cette décision parait légitime
+ vu leur appartenance à l'aile gauche de la présidence de région, qui a
+ contribué de manière considérable à l'élaboration du Sdrif et a tenu au
+ respect des droits sociaux élémentaires.
+ Ces considérations politiques sont faites ici de manière objective pour
+ dresser le constat suivant : un changement de lignée politique aux prochaines
+ élections pourrait totalement bouleverser la mise en place du scenario
+ que nous proposons.
+ Ainsi, malgré l'existence de conjonctures structurantes pour l'évolution
+ de l'urbanisme, la place de la politique n'est pas à négliger, vu la forte
+ sensibilité des systèmes urbains au chemin choisi (voir par exemple 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "couch2011thirty"
+
+\end_inset
+
+).
+ Etant donné cette croissance du nombre de logements, nous avons multiplié
+ ce chiffre par le nombre moyen d’individu par ménage sur Nanterre (environ
+ 2) pour finalement prévoir une population de 44 000 habitants en 2030.
+ La volonté de la Mairie de Nanterre est également de maximiser la mixité
+ fonctionnelle de la ville et donc de conserver un équilibre entre le nombre
+ d’emploi et d’habitant, soit un nombre d’emploi d’environ 45 000.
+ Dans les données le nombre d’étudiant manquait, nous sommes donc allés
+ le rechercher dans l’atlas socio-économique de la ville de Nanterre dont
+ les données datent de 2007.
+ En supposant qu’il n’y a pas eu de changement conséquent entre 2005 et
+ 2007 nous avons repris cette valeur pour 2005.
+ Nous avons ensuite multiplié cette donnée par le taux de croissance globale
+ de la population d’île de France entre 2005 et 2030 pour obtenir une estimation
+ du nombre d’étudiants étudiant à Nanterre en 2030.
+ 
+\end_layout
+
+\begin_layout Subsection
+Stratégies urbanistiques
+\end_layout
+
+\begin_layout Standard
+Dans le cadre du scénario de développement présenté ci-dessus, une stratégie
+ urbaine a été élaborée afin d'accompagner et d'encourager le développement.
+ Présentée dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "projetNanterre"
+
+\end_inset
+
+, cette stratégie est axée sur une densification globale de la ville, sur
+ une augmentation de la mixité fonctionelle, ainsi que des actions ciblées
+ de réhabilitation ou de requalification.
+ Il semble que la stratégie soit la réponse directe au diagnostic fait en
+ première partie, que les décideurs doivent avoir fait de manière plus approfond
+ie et plus fine.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Avant de nous interesser à un cas concret de réhabilitation d'un quartier,
+ posons d'abord un regard critique sur la faisabilité des projets.
+ La densité de Nanterre est de 7340 hab.km
+\begin_inset Formula $^{2}$
+\end_inset
+
+, c'est à dire une densité trois fois moindre que celle de Paris (environ
+ 21000).
+ La ville est donc loin d'étouffer et possède un fort potentiel de densification.
+ Ce qui est sûr, c'est que celle-ci ne se fera pas à bas coût, vu la nature
+ des parcelles pouvant être urbanisées : échangeur autoroutier à couvrir,
+ emprises ferroviaires, usines à requalifier.
+ Même si nous ne disposons pas d'un chiffrage de coûts, il est certain que
+ la stratégie envisagée demandera un effort largement supérieur à des actions
+ molles, mais les financements sont a priori disponibles d'acteurs comme
+ l'état ou la région, vu l'importance de la zone au sein du territoire à
+ une plus grande échelle.
+ Il faudra également porter une attention particulière à une répartition
+ homogène d'espaces verts, vu la forte hétérogénéité actuelle ; les projets
+ tels la requalification des bords de Seine semblent aller dans ce sens.
+ Ainsi, la stratégie urbanistique semble réalisable, mais nécessitera certaineme
+nt une volonté politique forte et une réelle motivation de chacun des acteurs,
+ des citoyens aux entreprises, en passant par les pouvoirs et les services
+ publics, ainsi qu'un certain consensus sur la majorité des projets.
+\end_layout
+
+\begin_layout Subsection
+Proposition de plan masse determiné par heuristique d'optimisation
+\end_layout
+
+\begin_layout Subsubsection
+Contexte
+\end_layout
+
+\begin_layout Standard
+Au sein des éléments structurants de la probable stratégie d'urbanisme de
+ la ville de Nanterre dans les prochaines années, le sort du quartier des
+ Groues tient une place particulière : aujourd'hui très enclavé et monofonctionn
+el, il ne s'agit pas d'un quartier urbain 
+\begin_inset Quotes eld
+\end_inset
+
+vivable
+\begin_inset Quotes erd
+\end_inset
+
+ au sens d'une qualité de vie subjective, mais plutôt d'un 
+\begin_inset Quotes eld
+\end_inset
+
+no-man's land
+\begin_inset Quotes erd
+\end_inset
+
+ urbain au sens de 
+\noun on
+Mangin
+\noun default
+ dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mangin2004ville"
+
+\end_inset
+
+, zone que la morphologie rattacherait à une commune adjacente mais que
+ le découpage administratif attribue à Nanterre, conduisant à une négligence
+ d'un réel développement comme quartier de vie.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le projet actuel de la ville pour ce quartier, présenté par exemple dans
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "projetGroues"
+
+\end_inset
+
+, est de le reconnecter au reste de la commune par de multiples franchissement
+ des coutures des emprises ferroviaires ainsi que de requalifier totalement
+ son activité dans l'objectif de créer un quartier mixte au niveau fonctionnel
+ tout en augmentant son activité économique, d'une part en maintenant au
+ sein des nouvelles infrastructures la place des PME secondaires présentes
+ actuellement sur le site, d'autre part en amenant un certain nombre de
+ bureaux pour des entreprises du secteur tertiaire, le tout en recherchant
+ une grande mixité fonctionelle avec les logements notamment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous proposons par la suite une méthode afin d'optimiser l'organisation
+ des fonctionnalités au niveau de granularité du batiment : tout en prenant
+ le parti que les batiments seront eux-même à mixité fonctionelle, on sait
+ que certaines activités secondaires sont peu compatibles avec des batiments
+ classiques, et nous proposons donc de fixer une dominante fonctionelle
+ pour chaque sous-zone correspondant environ à l'emprise d'un batiment.
+ Nous ne discutons pas le choix de la mixité qui semble légitime dans la
+ plupart des projets urbains actuels, même si la littérature quantitative
+ est assez pauvre quant à ses bénéfices (voir par exemple 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "malik2014can"
+
+\end_inset
+
+ pour un modèle agent-based permettant de conclure dans ce sens, mais il
+ s'agit d'un cas relativement isolé dans l'ensemble des travaux en modélisation
+ urbaine).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Algorithme
+\end_layout
+
+\begin_layout Standard
+L'objectif est d'optimiser la nouvelle configuration fonctionelle du quartier
+ selon des indicateurs de qualité urbaine.
+ On se place dans le cadre d'une optimisation au sens de Pareto, qui revient
+ à la détermination des configurations formant le front de Pareto dans l'espace
+ des indicateurs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On suppose fixée la trame structurante du réseau viaire modélisée comme
+ un réseau euclidien 
+\begin_inset Formula $N_{0}$
+\end_inset
+
+ pavant la zone géographique 
+\begin_inset Formula $P\subset\mathbb{R}^{2}$
+\end_inset
+
+ du quartier, on note 
+\begin_inset Formula $(P_{i})_{1\leq i\leq K}$
+\end_inset
+
+ les polygones correspondant pavant la zone.
+ Pour définir l'espace des configurations 
+\begin_inset Formula $\mathcal{C}$
+\end_inset
+
+ sur lequel l'optimisation se fait, on représente une configuration fonctionelle
+ comme la donnée de points et de leur fonctions, correspondant aux centroides
+ des zones fonctionelles (définis pour simplifier de façon inversée : étant
+ donné un centroide, la zone correspondante est l'ensemble des points pour
+ lesquels ce centroide est le plus proche).
+ De plus, une configuration inclut un réseau viaire reliant les centroides
+ et étendant la trame 
+\begin_inset Formula $N_{0}$
+\end_inset
+
+.
+ De manière formelle, si on note 
+\begin_inset Formula $\mathcal{N}$
+\end_inset
+
+ l'ensemble des réseaux euclidiens inclus dans 
+\begin_inset Formula $P$
+\end_inset
+
+, on a, avec 
+\begin_inset Formula $c_{max}$
+\end_inset
+
+ nombre maximal de centroides et 
+\begin_inset Formula $N_{a}$
+\end_inset
+
+ nombre d'activités, 
+\begin_inset Formula $\mathcal{C}\subset\cup_{i=1}^{c_{max}}(P\times\left[\left|1;N_{a}\right|\right])^{i}\times\mathcal{N}$
+\end_inset
+
+, avec les contraintes suivantes vérifiées pour 
+\begin_inset Formula $C=((x_{i},y_{i},a_{i})_{1\leq i\leq N_{c}},N)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Itemize
+taille minimale des zones fonctionelles : 
+\begin_inset Formula $\forall i,j,\left\Vert (x_{i},y_{i})-(x_{j},y_{j})\right\Vert \geq d_{min}$
+\end_inset
+
+, ce qui donne immédiatement une majoration du nombre de zones, en utilisant
+ une minoration de l'aire de chacune des zones par celle du cercle de rayon
+ 
+\begin_inset Formula $d_{min}/2$
+\end_inset
+
+ nécessairement contenu dans celle-ci : 
+\begin_inset Formula $N_{c}\leq\frac{4\left|P\right|}{\pi d_{min}^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $N$
+\end_inset
+
+ est connexe
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $N$
+\end_inset
+
+ étend strictement 
+\begin_inset Formula $N_{0}$
+\end_inset
+
+ au sens suivant : il existe 
+\begin_inset Formula $N'\subseteq N$
+\end_inset
+
+ tel que la trace des liens de 
+\begin_inset Formula $N'$
+\end_inset
+
+ dans 
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+ soit exactement celle des liens de 
+\begin_inset Formula $N_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tout centroide est un noeud de 
+\begin_inset Formula $N$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Proportion fixes entre activités : pour tout 
+\begin_inset Formula $1\leq i\leq N_{c}$
+\end_inset
+
+, 
+\begin_inset Formula $Card\{a_{j}=i\}=k_{i}$
+\end_inset
+
+ constante (contrainte arbitraire mais nécessaire pour limiter la taille
+ de l'espace d'exploration)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vu la taille de l'ensemble des configurations (au moins 
+\begin_inset Formula $\mathbb{R}^{2c_{max}}\times\left[\left|1;N_{a}\right|\right]^{c_{mac}}$
+\end_inset
+
+ en ne comptant seulement les positions des centroides), il est nécessaire
+ d'utiliser une heuristique d'exploration cohérente : nous proposons d'utiliser
+ un algorithme génétique simple multi-objectif, assez efficace dans ce type
+ de situation (voir par exemple 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zitzler1999multiobjective"
+
+\end_inset
+
+ pour des exemples de GA multi-objectifs).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On suppose donnée la fonction heuristique de croisement 
+\begin_inset Formula $CR:\mathcal{C}\times\mathcal{C}\rightarrow\mathcal{C}$
+\end_inset
+
+ qu'on implémente de manière concrète de la façon suivante : étant donné
+ 
+\begin_inset Formula $C_{1},C_{2}$
+\end_inset
+
+ , on définit 
+\begin_inset Formula $CR(C_{1},C_{2})$
+\end_inset
+
+ de la manière suivante : on conserve un certain nombre de centres 
+\begin_inset Quotes eld
+\end_inset
+
+fixes
+\begin_inset Quotes erd
+\end_inset
+
+, c'est à dire ceux communs à toutes les configurations initiales, et qui
+ correspondent à une fonctionalité fixe : la gare.
+ On selectionne de manière aléatoire des centres dans chacune des configurations
+, en conservant l'exigence de proportion.
+ On reconstruit un réseau via un algorithme de connexification entre les
+ centroides et à la trame structurante.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pour simplifier, on considère qu'on ne fait pas de mutation des configurations,
+ et on veillera pour cela à partir d'un assez grand nombre de configurations
+ initiales aléatoires à la première itération de l'algorithme.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On se suppose données les fonctions objectifs normalisées à minimiser, sur
+ lesquelles on réalise l'optimisation : 
+\begin_inset Formula $F=(F_{i}:\mathcal{C}\rightarrow[0,1])_{1\leq i\leq N}$
+\end_inset
+
+ et on définit le front de Pareto d'un ensemble de points 
+\begin_inset Formula $\mathcal{C}_{0}\subset\mathcal{C}$
+\end_inset
+
+ de la manière forte :
+\begin_inset Formula 
+\[
+\mathcal{P}_{F}(\mathcal{C}_{0})=\{C\in\mathcal{C}_{0}|\forall C'\text{≠}C,\exists i_{0}\in\left[\left|1;N\right|\right],F_{i_{0}}(C)<F_{i_{0}}(C')\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'algorithme est alors défini comme une suite croissante 
+\begin_inset Formula $\mathcal{G}_{n}$
+\end_inset
+
+ d'ensembles de configurations, de la manière suivante, avec 
+\begin_inset Formula $e$
+\end_inset
+
+ fonction d'échantillonage aléatoire d'un ensemble fini,
+\begin_inset Formula 
+\[
+\begin{cases}
+\mathcal{G}_{0}\subset\mathcal{C}\textrm{ aléatoire de cardinal fini}\\
+\mathcal{G}_{n+1}=\mathcal{G}_{n}\cup\{CR(e(\mathcal{P}_{F}(\mathcal{G}_{n})),e(\mathcal{P}_{F}(\mathcal{G}_{n})))\}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Fonctions objectifs
+\end_layout
+
+\begin_layout Standard
+On se place dans le cadre d'une optimisation bi-objectif, et les fonctions
+ de qualité urbaine que nous proposons sont calculées de manière bottom-up
+ à partir d'une configuration fonctionelle prise comme configuration initiale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Potentiel d'accessibilité
+\end_layout
+
+\begin_layout Standard
+Comme proposé et implémenté dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raimbault2014urbanconf"
+
+\end_inset
+
+, un modèle hybride couplant un automate cellulaire et un réseau dynamique
+ permet de simuler la croissance urbaine en fonction de variables explicatives
+ intrinsèques liées à la forme urbaine (par exemple distance aux centres
+ urbains) et aux fonctions urbaines (par exemple accessibilité des fonctions).
+ Ainsi, une configuration initiale représente un certain potentiel de développem
+ent de la zone urbaine, exprimé par les résultats de la simulation.
+ Parmi les indicateurs utilisés comme sortie du modèle, l'un est particulièremen
+t interessant dans notre cas, car il représente la performance en terme
+ d'accessibilité fonctionelle : l'indicateur donne la distance 
+\begin_inset Quotes eld
+\end_inset
+
+moyenne
+\begin_inset Quotes erd
+\end_inset
+
+ (au sens d'une norme qu'on peut faire varier, mais considérons qu'il s'agit
+ d'une moyenne classique pour simplifier) à l'ensemble des activités, aggrégée
+ et normalisée sur l'ensemble des agents, qu'il faut minimiser pour optimiser
+ l'accessibilité aux activités.
+ Notons 
+\begin_inset Formula $A(C_{0})$
+\end_inset
+
+ l'évaluation de cette fonction sur une configuration 
+\begin_inset Formula $C_{0}$
+\end_inset
+
+ fixée.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Potentiel de ségregation économique
+\end_layout
+
+\begin_layout Standard
+Il a été prouvé récemment par Banos dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banos2012network"
+
+\end_inset
+
+ que le modèle classique de ségregation de Schelling (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schelling1969models"
+
+\end_inset
+
+) était fortement sensible à sa distribution spatiale lorsque celui-ci était
+ réparti au sein d'un réseau euclidien.
+ De cette manière il serait possible de définir un indicateur exprimant
+ le potentiel de ségrégation spatiale d'une distribution résidentielle donnée,
+ possibilité qui a été explorée dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raimbault2014urbanconf"
+
+\end_inset
+
+.
+ On peut calculer cet indicateur sur une forme urbaine générée par le précédent
+ modèle, et définir ainsi une fonction de potentiel de segregation économique,
+ également à minimiser, 
+\begin_inset Formula $E(C_{0})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On arrête l'algorithme après un certain temps raisonnable de calcul 
+\begin_inset Formula $n_{max}$
+\end_inset
+
+, et le front de Pareto au sens de ces objectifs est alors 
+\begin_inset Formula $\mathcal{P}_{(A,E)}(\mathcal{G}_{n_{max}})$
+\end_inset
+
+.
+ Il est important de noter que le calcul des fonctions objectifs nécessite
+ un certain nombre de répétitions, vu le caractère stochastique de certains
+ éléments du modèle.
+ Le nombre nécessaire de répétitions pour un intervalle de confiance à 95%
+ est de l'ordre d'une dizaine, et est intégré dans l'implémentation originale
+ du modèle.
+\end_layout
+
+\begin_layout Subsubsection
+Résultats
+\end_layout
+
+\begin_layout Standard
+En partant d'une image Raster de la zone, on extrait la trame viaire ainsi
+ que les zones associées permettant la couverture de la zone, par un traitement
+ via SIG (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "QGIS_software"
+
+\end_inset
+
+), ce qui permet d'exporter à un format utilisable par l'implémentation
+ de l'algorithme (en l'occurence un format shapefile).
+ La figure 13 montre la carte initiale de la zone et un exemple de configuration
+ possible.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/Groues.png
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Carte du quartier des Groues ayant fourni la trame viaire et les sous-zones
+ (source 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "projetGroues"
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/Algo/conf.png
+	lyxscale 10
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Exemple de configuration.
+ Les couleurs des centroides correspondent à leur fonction (gris gare, rose
+ logements et violet lieu de travail) ; le réseau est visualisé par ses
+ arcs en rouge ; les couleurs de fond et les maisons sont associés à des
+ variables et agents du modèle utilisé pour l'évaluation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Initialisation de l'algorithme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'algorithme génétique a été implémenté en language NetLogo (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NetLogo"
+
+\end_inset
+
+), comme une extension du modèle implémenté dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raimbault2014urbanconf"
+
+\end_inset
+
+ (code source du modèle initial et de l'extension disponible en ligne
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+https://github.com/JusteRaimbault/ProjetMasyt/tree/master/Models
+\end_layout
+
+\end_inset
+
+).
+ L'initialisation du modèle prend en compte les couches géographiques pour
+ les sous-zones et la trame structurante du réseau, ainsi qu'une couche
+ pour les centroides 
+\begin_inset Quotes eld
+\end_inset
+
+fixes
+\begin_inset Quotes erd
+\end_inset
+
+, c'est à dire trois points correspondants à l'implantation de la future
+ gare.
+ On lance ensuite l'algorithme avec un ensemble de 200 configurations initiales
+ générées de manière aléatoire, contenant chacune les trois centroides fixes
+ de la gare, et une égale proportion de centroides aléatoires pour les deux
+ autres activités que sont le logement et les lieux de travail.
+ La distance minimale est fixée à 100m, taille raisonnable pour des sous-îlots
+ dans notre cas.
+ La paramétrisation des modèles utilisés pour l'évaluation est la même que
+ celle utilisée dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raimbault2014urbanconf"
+
+\end_inset
+
+ pour un problème similaire mais dans le cas d'une exploration exhaustive
+ d'un petit espace de configurations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un exemple de résultat obtenu après 1000 étapes de calcul est présenté en
+ figure 14 : on montre la projection des configurations explorées dans le
+ plan d'optimisation, et une configuration correspondant à un 
+\begin_inset Quotes eld
+\end_inset
+
+compromis optimal
+\begin_inset Quotes erd
+\end_inset
+
+ entre les deux objectifs, c'est à dire le point du front de Pareto le plus
+ proche de l'origine (cette technique fonctionne en deux dimensions).
+ On est ainsi en mesure de proposer un plan masse fonctionnel pour la zone,
+ déterminé par l'algorithme d'optimisation des fonctions objectifs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/Algo/resultGA.png
+	lyxscale 10
+	scale 48
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Configuration optimale : les zones de couleur déterminent le plan masse
+ de répartition entre majorité de logements et majorité de lieux de travail
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/Algo/paretoPlot.pdf
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pareto plot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Résultat de l'algorithme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Synthèse du projet urbain
+\end_layout
+
+\begin_layout Standard
+Nous avons jusqu'ici présenté la direction globale voulue par les acteurs
+ locaux (mairie) pour la stratégie urbaine et présenté un exemple de déterminati
+on algorithmique de plan masse pour le quartier des Groues, dans le cadre
+ d'une telle stratégie.
+ Nous proposons de synthétiser le projet urbain global sous la forme d'une
+ liste (non exhaustive) de possibles 
+\begin_inset Quotes eld
+\end_inset
+
+faits urbains
+\begin_inset Quotes erd
+\end_inset
+
+ du Nanterre de demain, qui est la suivante :
+\end_layout
+
+\begin_layout Itemize
+Une ville redevenue homogène socialement et économiquement, une mixité sociale
+ et fonctionnelle : rééquilibrage global
+\end_layout
+
+\begin_layout Itemize
+Un important lieu d'activité économique, secondaire et tertiaire
+\end_layout
+
+\begin_layout Itemize
+Des usines dans la ville : un maintien de l'activité secondaire, grâce à
+ d'audacieuses requalifications et mixages des activités
+\end_layout
+
+\begin_layout Itemize
+Une disparition des 
+\begin_inset Quotes eld
+\end_inset
+
+coupures
+\begin_inset Quotes erd
+\end_inset
+
+ urbaines
+\end_layout
+
+\begin_layout Itemize
+Une ville qui reste agréable à vivre : contrôle de la densification, introductio
+n d'espace verts et de vie
+\end_layout
+
+\begin_layout Section
+Etude de l'impact de l'implantation du Grand Paris Express
+\end_layout
+
+\begin_layout Standard
+On est à présent en mesure de se demander le possible apport du GPE dans
+ le développement du territoire.
+ Les affectations pour les différents modes de transport sont faites via
+ l'application d'un modèle à 4 étapes implémenté dans le SIG Transcad, et
+ qui est une simplification du modèle MODUS
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Documentation officielle : http://www.driea.ile-de-france.developpement-durable.gouv.
+fr/IMG/pdf/Documentation_MODUSv2-1-2_cle25e7bd.pdf
+\end_layout
+
+\end_inset
+
+ développé et exploité par la Direction Régionale de l'Equipement d'Ile-de-Franc
+e.
+ Pour les trois premières étapes, le calcul de la matrice de gravité et
+ des parts modales a été réalisé en TD pour 2005 et est donc considéré comme
+ donné dans le cadre de projet.
+ Pour 2030, les calculs sont faits automatiquement selon le nouveau scénario
+ P+E que nous avons présenté précedemment injecté dans une macro Transcad
+ fournie dans le cadre du projet.
+ Concernant l'étape d'affectation, dans le cadre des transports en commun
+ il s'agit uniquement d'un calcul de 
+\shape italic
+betweeness-centrality
+\shape default
+ pondérée car on ne dispose pas de fonction simple reliant la congestion
+ au coût pour l'utilisateur et on ne peut donc pas faire de calcul d'affectation
+ à l'équilibre.
+ Pour les transports routiers, un équilibre de Wardrop est possible à calculer
+ car on peut relier vitesse et congestion, par exemple par la fonction 
+\begin_inset Quotes eld
+\end_inset
+
+Bureau of Public Roads
+\begin_inset Quotes erd
+\end_inset
+
+ pour laquelle les paramètres ont été calibrés pour l'ensemble des routes.
+\end_layout
+
+\begin_layout Subsection
+Motifs d'usage des transports en commun
+\end_layout
+
+\begin_layout Subsubsection*
+Evolution des lignes de désir
+\end_layout
+
+\begin_layout Standard
+Afin d'appréhender les évolutions de l'utilisation des transports en commun
+ dues à l'implantation du Grand Paris Express, il faut déjà visualiser l'évoluti
+on des lignes de désirs des déplacements vers et depuis Nanterre, liée aux
+ nouveaux flux O-D déduits du scénario pour 2030 et à l'apparition de nouvelles
+ offres de transport.
+ La figure 15 montre la comparaison pour les déplacements à destination
+ de Nanterre.
+ On constate l'augmentation de la quantité de déplacement, ainsi qu'un certain
+ report modal grâce au GPE, report que nous allons étudier par la suite.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/DesireLines/desiresAllModesToNanterre2005.jpg
+	lyxscale 10
+	scale 34
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2005
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/DesireLines/desiresAllModesToNanterre2030.jpg
+	lyxscale 10
+	scale 34
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Evolution des lignes de désir des déplacements vers Nanterre (tous modes,
+ classés de manière décroissante du réseau ferré lourd au mode doux).
+ Le contraste de selection des lignes est le même pour les deux années,
+ ce qui confirme l'augmentation des déplacements.
+ On constate également la forte demande en fréquentation de la nouvelle
+ ligne du GPE en 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Evolution des parts modales
+\end_layout
+
+\begin_layout Standard
+On représente en figure 16 les part modales des déplacements en provenance
+ de Nanterre, obtenu par la troisième étape du modèle à quatre étapes, via
+ un modèle logit.
+ On constate un fort report de la voiture vers les transports en commun,
+ notamment pour les communes situées dans le fuseau du GPE depuis Nanterre.
+ Il s'agit d'un point positif pour notre zone, car cela suppose la réduction
+ du nombre de voiture en partance à l'heure de pointe du matin.
+ Afin d'améliorer la lisibilité et le potentiel d'anlyse, on a créé en figure
+ 17 des zones d'aggrégation pertinentes selon les résultats de la première
+ analyse, et on visualise les parts modales aggrégées dans ces zones, ce
+ qui permet une meilleure compréhension.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ModalChoice/FlowsAllModesFromNanterre2005.jpg
+	lyxscale 10
+	scale 34
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2005
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ModalChoice/FlowsAllModesFromNanterre2030.jpg
+	lyxscale 10
+	scale 34
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Evolution des parts modales en provenance de Nanterre vers les zones Modus
+ avoisinantes.
+ Malgré le manque de lisibilité de la carte, on observe une forte augmentation
+ de la part des TC dans le fuseau du GPE, résultat attendu.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/AggregAreas.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Zones d'aggregation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ModalChoice/FromNanterreAllModesAggregatedAreas2030.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Parts modales en provenance de Nanterre visualisées en 2030 de manière aggrégées
+ dans des zones de similarité.
+ Un problème technique a conduit à une carte pour 2005 fausse, et nous devons
+ donc comparer avec la carte non aggrégée : on confirme tout de même clairement
+ le fort report modal vers les TC dans le fuseau du GPE.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Repartition des flux
+\end_layout
+
+\begin_layout Standard
+Concernant les flux de voyageurs, on observe figure 18, comme attendu, une
+ forte utilisation du GPE dans ses tronçons de petite couronne, en particulier
+ à l'ouest ; cela traduit la forte demande en terme de déplacement internes
+ à la proches banlieue, ce qui est une justification pour la construction
+ de l'infrastructure.
+ Pour la zone, la décongestion du RERA, permise par le GPE et le nouveau
+ RERE, est une amélioration considérable.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/TransitFlows2005.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2005
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/TransitFlows2030.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Evolution des flux de voyageurs dans les transports en commun.
+ On observe la forte fréquentation du GPE, ce qui confirme l'existence d'une
+ forte garvité pour les déplacements interne à la proche banlieue mais transitan
+t par Paris, et justifie d'une certaine manière la construction de cette
+ partie du réseau du GPE.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Congestion des TC
+\end_layout
+
+\begin_layout Standard
+On est en mesure de calculer la congestion des TC pour 2005 (figure 19)
+ mais pas pour 2030, vu les données de capacité manquantes pour les nouvelles
+ lignes.
+ On peut supposer que la congestion sera moindre sur les lignes anciennes,
+ vu la diminution des flux vue précedemment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/congestionTC2005.jpg
+	lyxscale 10
+	scale 28
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Congestion des TC en 2005
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Impact sur les couts généralisés
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ModeleTC/CostsDiffDistrib.pdf
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Distribution des gains de coûts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+La figure 21 montre la modification des motifs d'accessibilité au départ
+ de la zone ; bien qu'on constate un élargissement des isochrones, les cartes
+ sont difficilement lisibles, nous calculons donc pour cela la différence
+ de coût généralisé entre 2005 et 2030, présentée en figure 22.
+ La carte donne l'impression que de nombreuses zones sont en perte de temps,
+ mais la visualisation de la distribution en figure 20 nous dit le contraire
+ : la moyenne et la médiane sont supérieures à zéro, l'effet global est
+ donc largement positif.
+ L'explication de l'existence de zones pour lesquelles on a perte de coût
+ est délicate, car elles existent même sans actualisation de la valeur du
+ temps ; une vérification de l'heuristique de plus court chemin confirme
+ l'existence de très faible différences pour le même itinéraire, il pourrait
+ s'agir de modifications de vitesses commerciales dues à des modifications
+ de fréquence des lignes, mais dans tous les cas la perte est négligeable.
+ Il est très intéressant de constater, qu'en plus du gain certain dans le
+ fuseau direct du GPE, on a un gain de temps considérable pour les destinations
+ au départ des grandes gares parisiennes en transilien ou RER : on voit
+ clairement apparaitre le fuseau de Gare de Lyon, Montparnasse, Saint-Lazare,
+ etc.
+ Cela s'expliquerait par le fait que le GPE permet d'atteindre plus vite
+ des noeuds permettant la correspondance avec ces trains, et augmente donc
+ l'accessibilité de nombreux points de manière indirecte.
+ Cette carte montre que le GPE est très bénéfique pour Nanterre en terme
+ d'accessibilité.
+ cela est du notamment à sa position névralgique dans le réseau.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/generalisedCosts2005.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2005
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/generalisedCosts2030.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Motifs d'accessibilité (en temps) au départ de Nanterre.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/CostGainBetterMap.jpg
+	lyxscale 10
+	scale 28
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Gain en coût généralisé entre 2005 et 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Impacts locaux : voyageurs aux stations
+\end_layout
+
+\begin_layout Standard
+On représente en figure 22 les comptes de voyageurs montant et descendant
+ aux stations.
+ Malheureusement, il est peu possible d'obtenir une carte lisible et on
+ ne peut tirer de conclusion, si ce n'est que certaines stations présentent
+ une évolution considérable, telle Nanterre Université, sûrement à cause
+ de l'utilisation de la nouvelle gare juste à côté.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/OnOff2005.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2005
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /Users/Juste/Documents/Cours/MASYT/Project/Results/ResultsLast/AffectationTC/OnOff2030.jpg
+	lyxscale 10
+	scale 32
+
+\end_inset
+
+
+\lang french
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+En 2030
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Comptes de voyageurs montant et descendants.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Impacts locaux : flux piétons
+\end_layout
+
+\begin_layout Standard
+Les tentatives de comparaison des flux piétons aux abords des stations sont
+ restées infructueuses, montrant une limite de ce modèle, car il est trop
+ aggrégé pour modéliser des flux piétons d'une manière précise.
+ On pourra estimer un flux intégré entre deux points d'intérêt mais pas
+ simuler la répartition des flux sur la chaussée et les choix d'itinéraires
+ des piétons.
+\end_layout
+
+\begin_layout Subsection
+Autres impacts
+\end_layout
+
+\begin_layout Subsubsection
+Congestion routière
+\end_layout
+
+\begin_layout Standard
+Une affectation du traffic routier a été effectuée en 2007 par une méthode
+ de 
+\shape italic
+User-equilibrium
+\shape default
+, et montrait une forte congestion et fréquentation des axes autoroutiers
+ majeurs au sein de la commune.
+ Il aurait été interessant, vu les reports modaux constatés ci-dessous grace
+ au GPE, de calculer l'affectation du trafic routier en 2030 pour la comparer,
+ afin de voir si l'utilisation accrue des transports en commun pouvait avoir
+ un effet positif sur la congestion routière.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous nous sommes cependant heurtés à un obstacle technique qui nous a empêché
+ d'effectuer cette affectation : l'ouverture en 2009 du nouveau tronçon
+ de l'autoroute A86, le fameux tunnel 
+\begin_inset Quotes eld
+\end_inset
+
+Duplex
+\begin_inset Quotes erd
+\end_inset
+
+, entre Rueil et Versailles, permettant le bouclage de la deuxième rocade,
+ a du considérablement modifier la répartition des flux dans la zone et
+ de manière générale, et est donc d'intérêt majeur pour l'étude de notre
+ zone.
+ Il a été impossible d'obtenir un réseau routier fonctionnant pour 2030,
+ incluant ce nouveau tunnel, malgré les tentatives de création de nouveau
+ réseau en ajoutant ce tronçon et ses connecteurs aux arcs actifs, et nous
+ ne sommes pas en mesure de mesurer l'impact commun du report modal et de
+ l'ouverture du tunnel sur la congestion routière.
+ Des observations de terrain et de données de trafic routier en ligne confirment
+ le fait que l'A86 est toujours très problématique, et que le problème est
+ loin d'être résolu.
+\end_layout
+
+\begin_layout Subsubsection
+Impacts sociaux, économiques, urbanistiques
+\end_layout
+
+\begin_layout Standard
+Les modèles utilisés sont très limités dans le sens où ils n'intègrent pas
+ de feedback sur l'usage du sol ou des activités économiques.
+ On ne peut donc rien simuler en terme de retour économique, social ou urbanisti
+que de l'implantation du GPE.
+ Au contraire, on a donné ces aspects comme fixés par notre scénario et
+ notre stratégie, afin de pouvoir procéder à des simulations du fonctionnement
+ du futur système de transport.
+ Dans le cadre d'une prospective scénarisée, notre démarche reste légitime.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pour coupler les réseaux de transports aux motifs d'usage du sol, il faut
+ utiliser un modèle de type LUTI, qui intègre les deux aspects.
+ De tels modèles sont relativement performants et surtout sont opérationnels,
+ au sens où leur calibration est possible pour de bonnes performances prédictive
+s de situation réelles.
+ Toutefois, ils restent basés sur une approche 
+\shape italic
+top-down
+\shape default
+, c'est à dire relativement aggrégés, même si le calcul de certains de leur
+ modules est désaggrégé.
+ En effet, un phénomène de type émergence faible (lire 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bedau2002downward"
+
+\end_inset
+
+) ne pourra pas être représenté par leur approche, qui externalise la majorité
+ des processus essentiels.
+ Au contraire, des modèles totalement désaggrégés, de type 
+\shape italic
+bottom-up
+\shape default
+, peuvent être en mesure d'endogénéiser certains phénomènes d'émergence,
+ plus particulièrement en Sciences Sociales dans lesquelles la notion de
+ complexité est centrale, comme le soutient 
+\noun on
+Banos
+\noun default
+ dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banos2013HDR"
+
+\end_inset
+
+.
+ Cette hypothèse est confirmée par le succès de la série de modèles Simpop
+ résumée par 
+\noun on
+Pumain
+\noun default
+ dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pumain2012multi"
+
+\end_inset
+
+.
+ Suivant 
+\noun on
+Batty
+\noun default
+ dans 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "batty2013new"
+
+\end_inset
+
+, cette approche serait même indispensable pour intégrer réellement des
+ aspects sociaux dans les modèles urbains.
+\end_layout
+
+\begin_layout Section*
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Nous avons donc étudié une zone très hétérogène, tant sur le plan morphologique
+ que sur le plan socio-économique, dont le développement urbanistique, économiqu
+e, démographique et sociologique devrait de manière quantitative et qualitative
+ être poussé par l’arrivée du GPE.
+ Nous avons proposé un scénario d'urbanisme cohérent puis une démarche originale
+ de design d'un nouveau quartier, appliquée au cas particulier d'un quartier
+ de notre zone.
+ Concernant les impacts du GPE, nos projections restent toutefois limitées
+ à la fois dans la validité des résultats (modèle basique) et dans leur
+ étendue (pas de projections économiques ou démographiques émergentes par
+ exemple, et encore moins d'aspects sociaux ou urbanistiques).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous avons donc mené une étude introductive au contenu propre tout de même
+ riche, et ouvert la voie à de nombreux approfondissements dans le cadre
+ concret de cette étude de cas ou dans un cadre théorique plus large, comme
+ une réflexion épistémologique sur les différents types d'approche à la
+ Science Urbaine, ou bien une étude des possibles développements en design
+ ou planning de l'algorithme génétique d'optimisation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/Juste/Documents/Cours/MASYT/Project/Biblio/masyt,/Users/Juste/Documents/ComplexSystems/Biblio/BibTeX/global,/Users/Juste/Documents/ComplexSystems/Biblio/Culture/BibTex/culture"
+options "unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Source des illustrations de couverture :
+\series default
+ 
+\shape italic
+Transports à Nanterre en 2025, Société du Grand Paris (www.societedugrandparis.fr/
+gares/nanterre-la-folie) ; Nanterre, les Bidonvilles - Entretien avec Monique
+ Hervo, Musée national de l'immigration (extrait de http://www.histoire-immigrati
+on.fr/musee/ collections/entretien-avec-monique-hervo) ; Projet pour la gare
+ de la Folie, Blog des habitants du quartier du parc à Nanterre (http://www.centr
+al-parc.fr/2011/10/17/1ere-ebauche-de-la-triple-gare-nanterre-la-folie/)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Note : 
+\series default
+\shape italic
+Toutes les cartes ou graphiques sont de réalisation personelle via Transcad,
+ QGIS, R ou NetLogo lorsqu'aucune source n'est précisée.
+ Les données utilisées sont celles mises à disposition dans le cadre du
+ projet ou provenant des documents annexes évoqués le cas échéant.
+\end_layout
+
+\end_body
+\end_document
